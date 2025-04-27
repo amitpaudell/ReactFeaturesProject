@@ -6,6 +6,10 @@ function App() {
         <button>
           What are accordion components? <span>+</span>
         </button>
+
+        <button>
+          Wehn to use accordion components? <span>+</span>
+        </button>
       </div>
     </div>
   );
