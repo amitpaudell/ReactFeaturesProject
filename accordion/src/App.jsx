@@ -39,7 +39,7 @@ function App() {
   }
   return (
     <div className="h-screen w-screen flex flex-col justify-center items-center gap-3">
-      <div className="h-19 w-[20%] text-amber-50  text-2xl text-center  font-bold border-2 p-6 bg-[#644100]">Enable Multi Selection</div>
+      <button className="h-19 w-[20%] text-amber-50  tex  t-2xl text-center  font-bold border-2 p-6 bg-[#644100]">Enable Multi Selection</button>
       {titles.map((title) => {
         return <Card key={title.Q} title={title.Q} ans={title.A} handleClick={() => handleClick(title.Q)} isOpen={condition === title.Q}></Card>;
       })}
