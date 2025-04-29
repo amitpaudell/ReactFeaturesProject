@@ -15,11 +15,8 @@ function App() {
       action`,
     },
     {
-      Q: "What are accordion components3?",
-      A: `Accordion components are user interface elements used for
-        organizing and presenting content in a collapsible manner. They
-        typically consist of a header, content, and an expand/collapse
-        action`,
+      Q: "Accordian as musical instrument?",
+      A: `The accordion is a portable, box-shaped musical instrument that produces sound by pushing air through reeds using a bellows. It has a keyboard or buttons on one side (right hand) for playing melodies and bass buttons on the other (left hand) for chords and accompaniment. Sound is created as the bellows are expanded or compressed while pressing keys or buttons. It’s commonly used in folk, classical, and popular music around the world.`,
     },
     {
       Q: "What are accordion components4?",
