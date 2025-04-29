@@ -11,11 +11,8 @@ function App() {
         action`,
     },
     {
-      Q: "What are accordion components2?",
-      A: `Accordion components are user interface elements used for
-        organizing and presenting content in a collapsible manner. They
-        typically consist of a header, content, and an expand/collapse
-        action`,
+      Q: "What are they used for?",
+      A: `Accordion components are used to organize and display large amounts of content in a compact, collapsible format. They help improve user experience by reducing clutter on the page. Common uses include FAQs, settings menus, and lists with detailed descriptions. Users can click to expand or collapse sections as needed. This makes navigation more efficient and content more accessible.`,
     },
     {
       Q: "What are accordion components3?",
