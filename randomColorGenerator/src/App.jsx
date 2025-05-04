@@ -1,9 +1,8 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 function App() {
   const [colorType, setColorType] = useState("Hex");
   const [anyColor, setAnyColor] = useState("#ffffff");
-  const [flag, setFlag] = useState(false);
 
   function hexrandomColor() {
     const number = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "a", "b", "c", "d", "e", "f"];
@@ -23,6 +22,13 @@ function App() {
     const rgb = `rgb(${r},${g},${b})`;
     setAnyColor(rgb);
   }
+  useEffect(() => {
+    if (colorType === "Rgb") {
+      rgbrandomColor();
+    } else {
+      hexrandomColor();
+    }
+  }, [colorType]);
 
   function randomColor() {
     if (colorType == "Hex") {
