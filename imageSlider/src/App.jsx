@@ -30,12 +30,13 @@ function App() {
         <FaArrowCircleRight onClick={handleForwardClick} className="z-1 absolute right-2 top-[50%] text-white text-2xl cursor-pointer" />
 
         {/* Dots container */}
-        <div>
+        <div className="">
           {data.map((item) => (
-            <div key={item.id} className="w-full h-full relative overflow-hidden">
+            <div key={item.id} className=" w-full h-full relative ">
               {item.id == index ? <img src={item.id == index ? item.img : null} alt="" className="z-0 w-full h-full object-cover" /> : null}
               {/* <img src={item.id == index ? item.img : null} alt="" className="z-0 w-full h-full object-cover" /> */}
-              <GoDotFill className={`text-xl mx-2 ${index == item.id ? "text-white" : "text-gray-400"}`} />
+
+              <GoDotFill className={`z-20 text-xl mx-2 absolute bottom-0 left-[50%] transform -translate-x-[50%] ${index == item.id ? "text-white" : "text-gray-400"}`} />
             </div>
           ))}
         </div>
