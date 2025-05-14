@@ -16,6 +16,7 @@ function App() {
         })}
       </div>
 
+      {/* here we have to fetch the api using dummy json  */}
       <div className="flex justify-center mt-4">
         <button className="bg-black text-white px-4 py-2 rounded">Load More Button</button>
       </div>
